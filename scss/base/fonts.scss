@@ -1,0 +1,31 @@
+@font-face {
+    font-family: "Hyundai Sans Head Office";
+    src: local('Hyundai Sans-300'),
+    url("../fonts/HyundaiSansHeadOffice-Light.woff") format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Hyundai Sans Head Office";
+    src: local('Hyundai Sans-400'),
+    url("../fonts/HyundaiSansHeadOffice-Regular.woff") format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: local('Roboto-400'),
+    url("../fonts/Roboto-Regular.woff") format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: local('Montserrat-700'),
+    url("../fonts/Montserrat-Bold.woff") format('woff');
+    font-weight: 700;
+    font-style: normal;
+}

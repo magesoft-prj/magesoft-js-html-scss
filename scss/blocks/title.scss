@@ -1,0 +1,113 @@
+.section-title {
+    max-width: 614px;
+    font-size: 81px;
+    font-weight: 400;
+    font-family: Hyundai Sans Head Office;
+    line-height: 85px;
+    color: $black;
+
+    &--qualities {
+        color: $blue;
+    }
+
+    &--news {
+        max-width: 937px;
+        margin: 0 auto;
+        color: $black;
+        text-align: center;
+    }
+
+    &--team {
+        max-width: 550px;
+    } 
+
+    &--clients {
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    &--coop {
+        max-width: 500px;
+    }
+
+    @media (max-width: 1279px) {
+        font-size: 70px;
+        line-height: 80px;
+
+        &--coop {
+            max-width: 420px;
+        }
+    }
+
+    @media (max-width: 999px) {
+        font-size: 50px;
+        line-height: 65px;
+
+        &--news {
+            max-width: none;
+            width: 100%;
+        }
+
+        &--team {
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        &--clients {
+            font-size: 70px;
+        }
+
+        &--coop {
+            max-width: 300px;
+        }
+    }
+
+    @media (max-width: 767px) {
+        font-size: 40px;
+        line-height: 55px;
+
+        &--qualities {
+            width: 270px;
+                position: absolute;
+                top: 0;
+                right: 20px;
+        }
+
+        &--tagline {
+            padding-top: 45px;
+            margin-top: 35px; 
+        }
+
+        &--clients {
+            font-size: 50px;
+        }
+
+        &--coop {
+            max-width: none;
+        }
+    }
+
+    @media (max-width: 479px) {
+        font-size: 36px;
+        line-height: 44px;
+
+        &--qualities {
+            width: 200px;
+                position: absolute;
+                top: 0;
+                right: 20px;
+        }
+
+        &--tagline {
+            margin-top: 15px; 
+        }
+
+        &--team {
+            text-align: left;
+        }
+
+        &--clients {
+            font-size: 40px;
+        }
+    }
+}
